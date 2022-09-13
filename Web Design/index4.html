@@ -1,0 +1,16 @@
+<!--This is where you input a name(string) -->
+<input id="name-input" type="text" placeholder="Enter your name" />
+<!-- This is a button-->
+<button id="my-button">Click Me</button>
+<!-- This is the script to take in the input of button and entering name-->
+<!-- The if (below) statement is to check if a name has been inputted and if the button is pressed, will print hello + the entered name-->
+<script>
+  var myButton = document.querySelector('#my-button');
+  var nameInput = document.querySelector('#name-input');
+    
+  myButton.addEventListener('click', function () {
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>

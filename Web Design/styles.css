@@ -1,0 +1,19 @@
+
+
+.mainTitle {
+    text-align: center;
+    font: 12px sans-serif;
+  }
+  .myParagraph{
+      font: 14px sans-serif;
+      margin-bottom: 12px;
+  }
+
+  .mySecondParagraph{
+    font: 14px sans-serif;
+
+  }
+
+  body {
+    background-color: rgb(19, 177, 32);
+  }
